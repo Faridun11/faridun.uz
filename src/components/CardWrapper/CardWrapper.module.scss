@@ -1,0 +1,13 @@
+.card__wrapper {
+    max-width: 1300px;
+    background-color: rgb(17 17 17);
+    padding: 50px 20px;
+    margin: 40px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px 10px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "title": "UZB - TRANS INC.",
+        "image": "https://i.postimg.cc/ZqD7RzRp/uzbtransinc.png",
+        "description": "The Best Logistics Solutions For Your Business. We pride ourselves in delivering the right solutions for all of our customers. Big or small, every business matters. Let us deliver your goods with swiftness and ease. With more than 2 decades of experience we strive to venture into the future helping business deliver their products where they need to go so that everything moves without hesitation...",
+        "startDate": "10.07.2025.",
+        "endDate": "01.08.2025.",
+        "tech": "React + Vite.",
+        "link": "https://www.uzbtransinc.com"
+    },
+    {
+        "id": 2,
+        "title": "Oline - Playchill Games.",
+        "image": "https://i.postimg.cc/BvxbZ4Nw/onlineplaychillgames.png",
+        "description": "The next generation of all-out war has begun! Play Battlefield™ 2042 today. Adapt and thrive...",
+        "startDate": "30.05.2025.",
+        "endDate": "07.06.2025.",
+        "tech": "React + Vite.",
+        "link": "https://oline-playchill-games.netlify.app"
+    },
+    {
+        "id": 3,
+        "title": "ECOURSES - Online Website.",
+        "image": "https://i.postimg.cc/HsqTrFJG/ecoursesonlinewebsite.png",
+        "description": "Innovative Way To Learn. Aliquyam accusam clita nonumy ipsum sit sea clita ipsum clita, ipsum dolores amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita est. Diam sanctus gubergren sit rebum clita amet, sea est sea vero sed et. Sadipscing labore tempor at sit dolor clita consetetur diam. Diam ut diam tempor no et, lorem dolore invidunt no nonumy stet ea labore, dolor justo et sit gubergren diam sed sed no ipsum. Sit tempor ut nonumy elitr dolores justo aliquyam ipsum stet...",
+        "startDate": "10.06.2025.",
+        "endDate": "30.06.2025.",
+        "tech": "React + Vite.",
+        "link": "https://ecourses-oline-website.netlify.app"
+    },
+    {
+        "id": 4,
+        "title": "Dashboard-Login Website.",
+        "image": "https://i.postimg.cc/TP9xHwtG/dashboard.png",
+        "description": "Inputs for email/username and password. Submission triggers authentication logic—maybe hitting an API or verifying against mock data. On success, the app redirects to the dashboard section.",
+        "startDate": "22.04.2025.",
+        "endDate": "10.04.2025.",
+        "tech": "React + Vite.",
+        "link": "https://dashboard-login-react-vite.netlify.app/"
+    },
+    {
+        "id": 5,
+        "title": "QPICK - Online Shopping.",
+        "image": "https://i.postimg.cc/NFywMxBf/qpickonlineshopping.png",
+        "description": "QPICK - Online Shopping...",
+        "startDate": "03.06.2025.",
+        "endDate": "05.06.2025.",
+        "tech": "React + Vite.",
+        "link": "https://oline-shopping-web-site.netlify.app"
+    },
+    {
+        "id": 6,
+        "title": "Academic Number - One.",
+        "image": "https://i.postimg.cc/9XShksY4/academicnumberone.png",
+        "description": "Start your future career with us!. Academic Number One is a center for practical training in modern technologies. Work on real projects with experienced mentors and become an in-demand IT specialist!...",
+        "startDate": "15.04.2025.",
+        "endDate": "25.04.2025.",
+        "tech": "Html-Css-Scss-JavaScript.",
+        "link": "https://academic-number-one.netlify.app"
+    },
+    {
+        "id": 7,
+        "title": "To - Do List.",
+        "image": "https://i.postimg.cc/7PpLz5cQ/todolist.png",
+        "description": "To-Do List This project is a simple and convenient To-Do List application created using HTML, CSS and JavaScript...",
+        "startDate": "28.03.2025.",
+        "endDate": "03.04.2025.",
+        "tech": "Html-Css-JavaScript.",
+        "link": "https://javascript-to-do-list-orpin.vercel.app"
+    },
+    {
+        "id": 8,
+        "title": "Velocity - Website.",
+        "image": "https://i.postimg.cc/VNLsw-nr5/velocity.png",
+        "description": "Velocity - Responsive Web Design. VelloCity-WebSite Html, Css and Scss. What we do. This is some text inside of a div block. Graphic Design, Web Developer and Frontend...",
+        "startDate": "01.02.2025.",
+        "endDate": "20.02.2025",
+        "tech": "Html-Css-Scss.",
+        "link": "https://scss-vellocity-website.vercel.app"
+    },
+    {
+        "id": 9,
+        "title": "X-O  Game",
+        "image": "https://i.postimg.cc/FRY9dvx4/xogames.png",
+        "description": "JavaScript XO Game This is a Tic-Tac-Toe (XO) game implemented using HTML, CSS, and JavaScript. The game allows two players to compete on a 3x3 grid...",
+        "startDate": "28.02.2025.",
+        "endDate": "14.03.2025.",
+        "tech": "Html-Css-JavaScript.",
+        "link": "https://faridunuz-javascript-xo-game.vercel.app"
+    },
+    {
+        "id": 10,
+        "title": "MyTeam - Website.",
+        "image": "https://i.postimg.cc/LXgp4TH4/myteam.png",
+        "description": "Find the best talent. Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that...",
+        "startDate": "01.02.2025.",
+        "endDate": "19.02.2025.",
+        "tech": "Html-Css-Scss-JavaScript.",
+        "link": "https://scss-myteam-website.vercel.app"
+    },
+    {
+        "id": 11,
+        "title": "Login - Form.",
+        "image": "https://i.postimg.cc/j26BC3BT/login.png",
+        "description": "Login Page - Responsive Design. Login-WebSite Html, Css and Scss...",
+        "startDate": "05.03.2025.",
+        "endDate": "15.03.2025.",
+        "tech": "Html-Scss.",
+        "link": "https://sing-up-lyart.vercel.app"
+    },
+    {
+        "id": 12,
+        "title": "Food - Wesite.",
+        "image": "https://i.postimg.cc/9f4SyQsJ/foodweb.png",
+        "description": "What is a Food Website?. A food website is a site that provides information or services related to food — such as restaurant menus, delivery options, recipes, food blogs, or cooking tutorials...",
+        "startDate": "01.04.2025.",
+        "endDate": "10.04.2025.",
+        "tech": "Html-Css-JavaScript.",
+        "link": "https://html-css-javascript-web-faridunuz.vercel.app"
+    },
+    {
+        "id": 13,
+        "title": "EVARUGS - Website.",
+        "image": "https://i.postimg.cc/CLFQmNWZ/evarugsw-eb.png",
+        "description": "EVARUGS Landing Page This project is a responsive landing page for EVA car mats, built using HTML, CSS (SCSS)...",
+        "startDate": "10.03.2025.",
+        "endDate": "27.03.2025.",
+        "tech": "Html-Css-Scss-JavaScript.",
+        "link": "https://scss-scc-html-evarugs-faridun.vercel.app"
+    },
+    {
+        "id": 14,
+        "title": "Bootstrap_5 - Website.",
+        "image": "https://i.postimg.cc/FKJW7nJ6/bootstrap5.png",
+        "description": "WebSite - Responsive Web Design (Bootstrap & HTML). Web-Site Bootstrap_5 and Html...",
+        "startDate": "15.02.2025.",
+        "endDate": "20.02.2025.",
+        "tech": "Html-Bootstrap_5.",
+        "link": "https://bootstrap-5-website-henna.vercel.app"
+    },
+    {
+        "id": 15,
+        "title": "Weather - Website.",
+        "image": "https://i.postimg.cc/nzG1m8V3/weather.png",
+        "description": "Weather App This project is a weather app built using simple HTML, CSS, and JavaScript. It provides users with real-time weather information. ☀️🌧️...",
+        "startDate": "20.03.2025.",
+        "endDate": "25.03.2025.",
+        "tech": "Html-Css.",
+        "link": "https://html-css-weather.vercel.app"
+    },
+    {
+        "id": 16,
+        "title": "Sellzee - Website.",
+        "image": "https://i.postimg.cc/90xtxG7T/sellzee.png",
+        "description": "Inspiration Technology. Runs faster. Costs less and never breaks.Lorem ipsum dolor sit amet...",
+        "startDate": "05.03.2025.",
+        "endDate": "17.03.2025.",
+        "tech": "Html-Css-Scss-JavaScript.",
+        "link": "https://html-css-scss-js-sellzee.vercel.app"
+    },
+    {
+        "id": 17,
+        "title": "Photo - Website.",
+        "image": "https://i.postimg.cc/N018hhXQ/photo.png",
+        "description": "Free 4k Wallpaper Photos. Save 10% today!. Use code FF10 at checkout to get 10% off videos...",
+        "startDate": "02.02.2025.",
+        "endDate": "12.02.2025.",
+        "tech": "Html-Css.",
+        "link": "https://web-photos.vercel.app"
+    },
+    {
+        "id": 18,
+        "title": "Coffee-Roasters Website.",
+        "image": "https://i.postimg.cc/ZYf8zxWv/coffeeroasters.png",
+        "description": "Coffee the way you wanted it to be. Welcome to the Coffeeroasters Website repository! This project is a beautifully designed coffee e-commerce website that allows users to explore, subscribe, and purchase high-quality coffee from various roasters...",
+        "startDate": "29.01.2025.",
+        "endDate": "12.02.2025.",
+        "tech": "Html-Css.",
+        "link": "https://coffee3-sable.vercel.app"
+    }
+]

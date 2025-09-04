@@ -1,0 +1,92 @@
+.section {
+    width: 100%;
+    min-height: 250px;
+    margin: -40px auto 40px;
+
+    &__wrapper {
+        max-width: 1200px;
+        min-height: 250px;
+        border-radius: 10px;
+        background-color: rgb(17 17 17);
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 20px;
+
+        .about,
+        .portfolio,
+        .contact {
+            flex: 1 1 30%;
+            min-height: 200px;
+            border-radius: 8px;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-family: system-ui, sans-serif;
+            font-weight: 600;
+            color: white;
+            letter-spacing: 1px;
+            transition: transform 0.3s ease;
+            text-align: center;
+            padding: 20px;
+
+            &:hover {
+                transform: scale(1.05);
+            }
+
+            span {
+                color: rgb(46, 168, 199);
+            }
+        }
+    }
+
+    // 📱 RESPONSIVE QISMLAR
+
+    @media (max-width: 1024px) {
+        &__wrapper {
+            gap: 20px;
+
+            .about,
+            .portfolio,
+            .contact {
+                flex: 1 1 45%;
+                font-size: 24px;
+                min-height: 180px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        &__wrapper {
+            flex-direction: column;
+            gap: 20px;
+            padding: 15px;
+
+            .about,
+            .portfolio,
+            .contact {
+                width: 100%;
+                min-height: 150px;
+                font-size: 23px;
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        &__wrapper {
+
+            .about,
+            .portfolio,
+            .contact {
+                font-size: 22px;
+                min-height: 120px;
+                padding: 10px;
+            }
+        }
+    }
+}

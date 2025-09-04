@@ -1,0 +1,162 @@
+.section {
+    width: 100%;
+    min-height: 400px;
+    margin: 90px auto 20px;
+
+    &__wrapper {
+        max-width: 1300px;
+        min-height: 300px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: start;
+        justify-content: left;
+        padding: 20px 10px 20px 40px;
+        color: white;
+
+        &-img {
+            width: 30%;
+            min-height: 300px;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 3px solid rgb(46 168 199);
+
+            .rasm {
+                width: 270px;
+                height: 270px;
+                background-image: linear-gradient(to right, black, black);
+                border-radius: 50%;
+                object-fit: cover;
+                object-position: center;
+                box-shadow: 0 0 15px rgba(46, 168, 199, 0.305);
+                transition: transform 0.3s ease;
+
+                &:hover {
+                    transform: scale(1);
+                }
+
+                // @media (max-width: 768px) {
+                //     width: 270px;
+                //     height: 270px;
+                // }
+
+                // @media (max-width: 480px) {
+                //     width: 270px;
+                //     height: 270px;
+                // }
+            }
+        }
+
+        &-text {
+            width: 70%;
+            min-height: 300px;
+            border-bottom: 3px solid rgb(46 168 199);
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: left;
+            padding-top: 50px;
+            gap: 8px;
+
+            h1 {
+                font-size: 32px;
+                font-family: system-ui, sans-serif;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+
+            h3 {
+                color: rgb(46 168 199);
+                font-size: 22px;
+                font-family: system-ui, sans-serif;
+                font-weight: 600;
+            }
+
+            .icon {
+                width: 100%;
+                margin: auto;
+                display: flex;
+                margin-top: 30px;
+                gap: 20px;
+
+                a {
+                    width: 40px;
+                    height: 40px;
+                    color: rgba(255, 255, 255, 1);
+                    font-size: 25px;
+                    border: 2.5px solid white;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    transition-duration: 0.3s;
+                    animation-name: SocialAnime;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                    margin-top: 10px;
+
+                    &:hover {
+                        transition-duration: .3s;
+                        transform: translateY(-8px);
+                        color: rgb(46 168 199);
+                        border: 2.5px solid rgb(46 168 199);
+                    }
+
+                    &:nth-child(1) {
+                        animation-delay: 0.4s;
+                    }
+
+                    &:nth-child(2) {
+                        animation-delay: 0.8s;
+                    }
+
+                    &:nth-child(3) {
+                        animation-delay: 1.2s;
+                    }
+
+                    &:nth-child(4) {
+                        animation-delay: 1.6s;
+                    }
+                }
+            }
+        }
+    }
+
+    // ✅ Responsive dizayn
+    @media (max-width: 1000px) {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 20px;
+
+            &-img {
+                width: 100%;
+                border-bottom: none;
+            }
+
+            &-text {
+                width: 100%;
+                align-items: center;
+                text-align: center;
+                padding-top: 20px;
+
+                h1 {
+                    font-size: 32px;
+                }
+
+                h3 {
+                    font-size: 22px;
+                }
+
+                .icon {
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
