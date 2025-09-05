@@ -3,7 +3,6 @@ import styles from "./Contact1.module.scss";
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 
-// Framer Motion animatsiya variantlari
 const fadeUp = {
     hidden: { opacity: 0, y: 40 },
     visible: {
@@ -53,15 +52,15 @@ const Contact1 = () => {
         try {
             const res = await fetch(url);
             if (res.ok) {
-                alert("✅ Xabar yuborildi!");
+                alert("✅ Message sent!");
                 nameRef.current.value = '';
                 emailRef.current.value = '';
                 commentRef.current.value = '';
             } else {
-                alert("❌ Xabar yuborilmadi.");
+                alert("❌ Message not sent!");
             }
         } catch (error) {
-            alert("❌ Tarmoq xatosi!");
+            alert("❌ Network error!");
             console.error(error);
         }
     };
