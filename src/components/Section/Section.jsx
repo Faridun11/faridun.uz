@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom'
 import SectionEnd from '../SectionEnd/SectionEnd'
 import styles from "./Section.module.scss"
 import { motion } from 'framer-motion'
+// import SEO from './../SEO/SEO'
 
 // Container & Children Variants
 const containerVariants = {
@@ -42,6 +43,14 @@ const textVariants = {
 const Section = () => {
   return (
     <>
+      {/* ✅ SEO Meta */}
+      {/* <SEO
+        title="Faridun Fakhridinov | Frontend Developer Portfolio"
+        description="I am a Frontend Web-Developer specialized in React and modern web technologies. Explore my portfolio and contact me via Faridun.uz."
+        url="https://faridun.uz"
+        image="https://i.postimg.cc/Cdys8FTn/faridun.jpg"
+      /> */}
+
       <motion.section
         className={styles.section}
         variants={containerVariants}
